@@ -1,90 +1,30 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark  fixed-top ">
-
-
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item ">
-                <a class="nav-link" href="/" >หน้าหลัก<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/gucci" style="text-transform:uppercase">gucci<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/balenciaga" style="text-transform:uppercase">balenciaga<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/nike" style="text-transform:uppercase">nike<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/adidas" style="text-transform:uppercase">adidas</span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/reebok" style="text-transform:uppercase">reebok<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/vans" style="text-transform:uppercase">vans<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/amiri" style="text-transform:uppercase">amiri<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="/products/converse" style="text-transform:uppercase">converse<span class="sr-only"></span></a>
-            </li>
-
-            
-                    
-            <li class="nav-item ">
-                <a class="nav-link" href="#" data-toggle="modal" data-target="#cart">ตะกร้าสินค้า(<span
-                class="total-count"></span>)</a>
-                
-            </li>
-        </ul>
-        
-            <a class="py-2 d-none d-md-inline-block login-button" href="/login">เข้าสู่ระบบ</a>
-            
-                    <div class="dropdown">
-                        <a class="py-2 d-none d-md-inline-block login-button nav-link dropdown-toggle">
-                            
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="/users/logout">ออกจากระบบ</a>
-                        </div>
-                    </div>
-                
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                        </div>
-                        </div>
-</nav>
-<body>
-<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg"  role="document">
-            <div class="modal-content bg-dark" >
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel" style="color: white;">ตะกร้าสินค้า</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body " >
-                    <table class="show-cart table" style="color: white">
-
-                    </table>
-                    <div style="color: white;">ราคาทั้งหมด: <span class="total-cart"></span>฿</div>
-                </div>
-                <div class="modal-footer">
-                    <button class="clear-cart btn btn-danger">ล้างตะกร้า</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">ปิด</button>
-                    <button type="button" class="btn btn-primary">สั่งซื้อ</button>
-                </div>
-            </div>
+    <nav class="navbar fixed-top navbar-expand-md navbar-light" style="background-color: #F9E79F;">
+        <!-- <a class="navbar-brand" href="#"> -->
+            <img src="/images/logo.svg" width="80" height="80" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a>&nbsp&nbsp&nbsp</a>
+            <a class="nav-link active" href="#">หน้าแรก<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">โปรโมชั่น</a>
+            <a class="nav-link" href="#">ราคาสกรีน</a>
+            <a class="nav-link" href="#">ติดต่อเรา</a>
+          </div>
         </div>
-    </div>
-<script src="/js/shopcart.js"></script>
-</body>
+
+        <div class="navbar-nav">
+            <a class="nav-link" href="#">เข้าสู่ระบบ</a>
+            <a>&nbsp&nbsp&nbsp</a>
+        </div>
+
+        <form class="form-inline" style="background-color: #252525;">
+            <button class="btn btn-outline-success" type="button">
+                <img src="/images/line.svg" width="20" height="20">
+                &nbspLine me</button>
+                
+            <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
+          </form>
+      </nav>
