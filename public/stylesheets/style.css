@@ -1,13 +1,31 @@
 *{
   font-family: 'Sarabun', sans-serif;
+  /* background-color:#F9E79F; */
 
 }
 body {
-  padding: 50px;
-  background-color: aqua;
+  
 }
 
 a{
   color: #00B7FF;
 
+}
+
+div#relative {
+  position: relative;
+}
+
+div#bottom-left{
+  margin: 0;
+  position: absolute;
+  bottom: 50px;
+  left: 35%;
+}
+
+div#bottom-right{
+  margin: 0;
+  position: absolute;
+  bottom: 50px;
+  right: 35%;
 }
