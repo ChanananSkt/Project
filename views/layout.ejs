@@ -6,7 +6,61 @@
       <div id="relative" class="text-center">
         <img src="/images/home.jpg" style="position: relative;" class="d-block w-100" alt="...">
 
-       <div class="container">
+      <div class="col-100 col-100fw">
+        <div class="b-cal b-cal-bmr">
+          <div class="cal-480">
+            <div class="b-form">
+              <div class="field-block field-radio-gender-block">
+                <p id="label-gender">เพศ</p>
+                <div class="col col-50-100 col-left">
+                  <a href="#" title="Select Male Gender" class="field-block-radio" data-blockradio="radio-male" data-radioname="gender">
+                      <input type="radio" name="gender" aria-labelledby="label-gender lable-male" class="field-radio field-radio-gender radio-male" 
+                      value="1" hidden>
+                      <div class="field-radio-bg">
+                        <div class="male-radio-icon"></div>
+                        <div id="label-male" class="field-radio-gender-text">ผู้ชาย</div>
+                      </div> 
+                  </a>
+                </div>
+                <div class="col col-50-100 col-left">
+                  <a href="#" title="Select Female Gender" class="field-block-radio" data-blockradio="radio-female" data-radioname="gender">
+                      <input type="radio" name="gender" aria-labelledby="label-gender lable-female" class="field-radio field-radio-gender radio-female" 
+                      value="2" hidden>
+                      <div class="field-radio-bg">
+                        <div class="male-radio-icon"></div>
+                        <div id="label-female" class="field-radio-gender-text">ผู้หญิง</div>
+                        <div class="clear"></div>
+              <div class="field-block">
+                <label for="field-weight">น้ำหนักตัว (kg.)</label>
+                <input type="nimber"name="wrigh" placeholder id="field-weight" class="field-text">
+              </div>
+              <div class="field-block">
+                <label for="field-height">ส่วนสูง (cm.)</label>
+                <input type="number" name="height" placeholder id="field-height" class="field-text">
+              </div>
+              <div class="field-block">
+                <label for="field-age">อายุ (ปี)</label>
+                <input type="number" name="age" placeholder id="field-age" class="field-text">
+              </div>
+              <div class="b-btn">  
+                <a href="#" class="bmr-cal-btn cal-btn">
+                  <span>คำนวน</span>
+                  <i class="material-icon">arrow_downward</i>
+                </a>
+              </div>
+              <div class="b-cal-result bmr-result">
+                <div class="inner">
+                  <p class="result-text">BMA (kcal)</p>
+                  <p class="bmr-value result-value" data-bmr="0">0</p>
+                </div>
+              </div>
+            </div>   
+          </div> 
+        </div>
+      </div>
+      </div>  
+
+       <!-- <div class="container">
         <div id="bottom-left">
           <button type="button" class="btn btn-warning" style="width: 200px; height:50px;"><b>SHOP NOW</button>
         
@@ -16,6 +70,6 @@
           <button type="button" class="btn btn-warning" style="width: 200px; height:50px;"><b>START DESIGN</button>
         </div>
         </div>
-    </div> 
+    </div>  -->
 
     </body>
